@@ -7,9 +7,11 @@ list=["u",73,"##",(8,9),0b101,a*b]
 set={"a","e","i","o","u"}
 print(tuple(sequence))
 print(tuple(list))
+
 # assigning to varoable
 c,d=tuple(set),["¶","#"]
 print(c,tuple(d))
+
 # passing as argument
 print(tuple("string"))
 print(tuple((22,88,"ii")))

@@ -8,6 +8,7 @@ tuple=(7,92,92)
 print(list(zip(lst,tuple)))
 print(list(zip(set,lst)))
 print(list(zip(lst,set,tuple)))
+
 # assigning to variable.
 language=("Python","JAVA","JavaScript")
 versions=[3,13,6]
@@ -15,6 +16,7 @@ dict={2:8,3:27,4:64,5:125}
 a=zip(language,versions)
 b=zip(dict,versions)
 print(list(a),list(b))
+
 # passigning as argument
 print(list(zip(["a","e","i"],(1,2,3))))
 print(list(zip(set,(7.7,8.8,9.9),["aa","bb","cc"])))
