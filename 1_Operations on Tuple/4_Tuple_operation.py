@@ -1,5 +1,6 @@
 #4]. Tuple operations - there are two operation on tuple.
-#1). Concatination '+' - used to join two or more tuple
+
+#1). Concatination '+' - used to join two or more tuple. the resultant tuple will contain al the elements together
 tup1=(2,4,6,8,10)
 tup2=(1,3,5,7,9)
 tup4=("a","b","c","d","e")
@@ -11,6 +12,7 @@ print(tup5)
 print(tup4+("x","y","z"))
 tup7=(tup2+tup5)
 print(tup7+tup1)
+
 #2). Repetition '*' - used to repeate a tuple multiple times
 tup1=(2,4,6,8,10)
 tup2=(1,3,5,7,9)

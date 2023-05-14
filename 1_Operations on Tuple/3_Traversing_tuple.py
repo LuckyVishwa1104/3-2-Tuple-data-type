@@ -1,4 +1,5 @@
 #3]. Traversing a Tuple - printing elem. one by one using loops.
+
 #1). By using tuple as range.
 print("1. By using tuple as range.")
 ''' Syntax:
@@ -21,6 +22,7 @@ print("")
 days=("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
 for day in days:
 	print(day)
+
 #2). By using range() function 
 print("2. By using range() function ")
 ''' Syntax:
@@ -37,7 +39,8 @@ for j in range(len(tup2)):
 	if j%2==0:
 		print(j,end=" ")
 print()
-#3). By using enumerate - prints both index as well as corresponding value
+
+#3). By using enumerate - prints both index as well as corresponding value one by one 
 print("3. By using enumerate")
 ''' Syntax :
 	  for var in enumerate(tuple_name):
